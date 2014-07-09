@@ -2,6 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* === fontawesome === */
 @import url('font-awesome.css');
+@import url('../fonts/neris/neris.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
@@ -22,7 +23,7 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'nerislight', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	color:#222;
@@ -431,12 +432,14 @@ h1 a.navbar-brand {
 =========================== */
 
 section.featured {
+
 	padding: 200px 0 60px;
 	background: #F1F0EC;
 	color: #424240;
 }
 
 section.featured h2.slogan {
+	font-family: 'nerisblack', sans-serif;
 	color: #424240;
 	font-size: 48px;
 	font-weight: 900;
