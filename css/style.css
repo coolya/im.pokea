@@ -449,9 +449,18 @@ section.featured img.download-small  {
 
 section.featured div.download  {
 	overflow:auto;
+	line-height: 1em;
 	height:250px;
 	display: table-cell;
 	vertical-align:middle;
+}
+
+section.featured h1,h2,h3,h4,h5,h6 {
+	margin: 0 0 4px 0;
+}
+
+section.featured h4,ul {
+	color:#aaaaaa;
 }
 
 
