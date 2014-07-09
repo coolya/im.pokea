@@ -448,6 +448,23 @@ section.featured h2.slogan {
 	font-size: 64px;
 	font-weight: 900;
 }
+section.featured.download-text {
+   direction: ltr;
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   border-collapse: collapse;
+   border-spacing: 0;
+   display:block;
+   overflow:auto;
+}
+section.featured img.download-img {
+    float:left;
+    padding:5px;
+}
+
   
  /* inner heading */
 section.featured.inner {
