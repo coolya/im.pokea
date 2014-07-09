@@ -6,12 +6,15 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
+
+/*F5F5F0*/
+/*DFDCD5*/
 /*==========================================================================
   General
   ========================================================================== */
 body {
 	color:#aaaaaa;
-	background: #f7f7f7;
+	background: #DFDCD5;
 	font-size: 16px;
 	line-height: 1.6em;
 	font-weight: 300;
@@ -465,9 +468,16 @@ section.featured h4,ul {
 
 
 section.featured {
-
+	background: #dfdcd5; /* Old browsers */
+	background: -moz-linear-gradient(top, #dfdcd5 50%, #f5f5f0 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#dfdcd5), color-stop(50%,#f5f5f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dfdcd5 50%,#f5f5f0 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dfdcd5 50%,#f5f5f0 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dfdcd5 50%,#f5f5f0 50%); /* IE10+ */
+	background: linear-gradient(to bottom, #dfdcd5 50%,#f5f5f0 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdcd5', endColorstr='#f5f5f0',GradientType=0 ); /* IE6-9 */
 	padding: 200px 0 60px;
-	background: #F1F0EC;
+	/*background: #F1F0EC;*/
 	color: #474747;
 }
 
