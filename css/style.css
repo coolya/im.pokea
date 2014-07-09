@@ -55,6 +55,7 @@ blockquote.bigquote {
 }
 
 .text-bold {
+	font-family: nerissemibold, sans-serif;
 	font-weight: 900;
 }
 
