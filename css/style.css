@@ -56,7 +56,10 @@ blockquote.bigquote {
 
 .text-bold {
 	font-family: nerissemibold, sans-serif;
-	font-weight: 900;
+}
+
+.text-italic {
+	font-family: neristhin_italic, sans-serif;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
