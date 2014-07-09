@@ -11,20 +11,20 @@ a:hover {
 
 /* menu */
 .nav>li>a:hover {
-	color: #79CDC0;
+	color: #9EBA64;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #79CDC0;
+	color: #9EBA64;
 }
 
 /* flexslider */
 .flex-control-paging li a {
-	background: #79CDC0;
+	background: #35A49C;
 }
 
 .flex-direction-nav a:hover{
-	background-color:#79CDC0;
+	background-color:#35A49C;
 }
 
 .testimonial span.author a {
