@@ -441,6 +441,12 @@ section.featured img.download  {
 	margin-right: 30px;
 }
 
+section.featured img.download-small  {
+	float: left;
+	margin-top:100px;
+	margin-right: 10px;
+}
+
 section.featured div.download  {
 	overflow:auto;
 	height:250px;
