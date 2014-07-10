@@ -456,6 +456,7 @@ section.featured div.download  {
 	height:250px;
 	display: table-cell;
 	vertical-align:bottom;
+	margin-bottom: 200px;
 }
 
 section.featured h1,h2,h3,h4,h5,h6 {

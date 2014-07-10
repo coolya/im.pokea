@@ -3,10 +3,10 @@
 #2 = 79CDC0
 */
 a {
-	color: #35A49C;
+	color: #83AB3E;
 }
 a:hover {
-	color: #79CDC0;
+	color: #83AB3E;
 }
 
 /* menu */
@@ -28,7 +28,7 @@ a:hover {
 }
 
 .testimonial span.author a {
-	color: #79CDC0;
+	color: #83AB3E;
 }
 
 /* --- icon box hover --- */
@@ -49,28 +49,28 @@ a:hover {
 
 /* btn */
 .btn-theme {
-  background: #79CDC0;
+  background: #83AB3E;
 }
 .btn-theme:hover,.btn-theme:focus,.btn-theme:active{
-  background: #35A49C;
+  background: #83AB3E;
 }
 .btn-cta,.btn-cta.btn-lg {
-  background: #35A49C;
+  background: #83AB3E;
   border-color: #79CDC0;
 }
 
 .btn-cta:focus,.btn-cta:active{
-   border-color: #35A49C;
+   border-color: #83AB3E;
 }
 
 /* contact */
 .validation {
-	color:#35A49C;
+	color:#83AB3E;
 }
 
 /* footer */
 .social-circle li a {
-	background:#35A49C;
+	background:#83AB3E;
 }
 
 a.scrollup{
