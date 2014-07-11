@@ -86,7 +86,7 @@
 		<div class="container"> 
 
 			<div class="row mar-bot40">
-				<div class="col-lg-4" >
+				<div class="col-sm-4" >
 					<div class="align-center">
 						<img src="img/usp_1.png"/>
 						<h4 class="text-bold">easy</h4>
@@ -95,7 +95,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4" >
+				<div class="col-sm-4" >
 					<div class="align-center">
 						<img src="img/usp_2.png"/>
 						<h4 class="text-bold">battery saving</h4>
@@ -104,7 +104,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4" >
+				<div class="col-sm-4" >
 					<div class="align-center">
 						<img src="img/usp_3.png"/>
 						<h4 class="text-bold">secure</h4>
@@ -156,7 +156,7 @@
 						<div id="sendmessage">
 							Your message has been sent. Thank you!
 						</div>
-						<form action="contact/contact.php" method="post" role="form" class="contactForm">
+						<form action="admin/beta/signup" method="post" role="form" class="contactForm">
 							<div class="form-group">
 								<label for="name">Your Name</label>
 								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
@@ -168,8 +168,18 @@
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
-								<label for="subject">Subject</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<label for="mac">Mac</label>
+								<input type="text" class="form-control" name="mac" id="mac" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<label for="android">Android Phone</label>
+								<select  class="form-control" name="phone" id="phone" >
+									<option value = "1">one</option>
+									<option value = "2">two</option>
+									<option value = "3">three</option>
+									<option value = "4">four</option>
+								</select>
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
