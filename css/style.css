@@ -806,9 +806,38 @@ nav#filter a {
 	display:block;
 }
 
+.inline-left {
+	width: 49%;
+	float: left;
+	margin-right: 1%;
+}
+
+.inline-right {
+	width: 49%;
+	float: left;
+	margin-left: 1%;
+}
+
 #contact-form {
 	position: relative;
 	z-index: 999;
+}
+
+
+#contact-form select {
+	height: 60px;
+	width: 100%;
+	background: rgba(227, 231, 228, 1);
+	font-family: 'Open Sans', sans serif;
+	border: 0;
+	font-size:14px;
+	text-align: left;
+	vertical-align: middle;
+	padding:0 10px;
+	        -webkit-border-radius: 0 0px 0px 0;
+        -moz-border-radius: 0 0px 0px 0;
+        border-radius: 0 0px 0px 0;
+	-webkit-appearance:none; /* remove the strong OSX influence from Webkit */
 }
 
 #contact-form input[type=text],#contact-form input[type=email], .contactForm textarea {

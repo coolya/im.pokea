@@ -122,7 +122,7 @@
 			<div class="row mar-bot40">
 				<div class="col-md-offset-3 col-md-6">
 					<div class="section-header">
-						<h2 class="section-heading animated" data-animation="bounceInUp">Foo Bar</h2>
+						<h2 class="section-heading animated" data-animation="bounceInUp">About</h2>
 					</div>
 				</div>
 				<div class="col-md-offset-1 col-md-6">
@@ -155,21 +155,22 @@
 						</div>
 						<form action="admin/beta/signup" method="post" role="form" class="contactForm">
 							<div class="form-group">
-								<label for="name">Your Name</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
 								<label for="email">Your Email</label>
 								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
 								<div class="validation"></div>
 							</div>
-							<div class="form-group">
-								<label for="mac">Mac</label>
-								<input type="text" class="form-control" name="mac" id="mac" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<div class="phone-mac">
+							<div class="form-group inline-left">
+								<label for="mac" id="mac">Mac</label>
+								<select  class="form-control" name="mac-type" id="mac-type" >
+									<option value = "1">one</option>
+									<option value = "2">two</option>
+									<option value = "3">three</option>
+									<option value = "4">four</option>
+								</select>
 								<div class="validation"></div>
 							</div>
-							<div class="form-group">
+							<div class="form-group inline-right">
 								<label for="android">Android Phone</label>
 								<select  class="form-control" name="phone" id="phone" >
 									<option value = "1">one</option>
@@ -179,13 +180,12 @@
 								</select>
 								<div class="validation"></div>
 							</div>
-							<div class="form-group">
-								<label for="message">Message</label>
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-								<div class="validation"></div>
-							</div>
+						</div>
 
-							<button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+
+						
+
+							<button type="submit" class="btn btn-theme pull-left">SUBMIT</button>
 						</form>
 
 					</div>
