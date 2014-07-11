@@ -331,23 +331,10 @@ section.section {
 	text-align: center;
 }
 .section-header h2.section-heading {
-	text-transform: uppercase;
-	font-weight: 700;
+	font-family: nerissemibold, sans-serif;
 }
 
-/* ==========================
- --- Parallax ---
-============================= */
 
-#parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
-}
-#parallax2{	
-	background-image: url(../img/parallax/img2.jpg);
-}
-#testimonials{	
-	background-image: url(../img/parallax/img3.jpg);
-}
 /*===========================
   --- Header & menu ----
 =========================== */
