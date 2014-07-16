@@ -82,10 +82,10 @@
 	<section id="section-services" class="section pad-bot30">
 		<div class="container"> 
 
-			<div class="row mar-bot40">
+			<div id="usp" class="row mar-bot40">
 				<div class="col-sm-4" >
 					<div class="align-center">
-						<img src="img/usp_1.png"/>
+						<img src="img/GIF_1.png" width="250" height="142" data-orig="img/GIF_1.png" data-animated="img/GIF_1.gif"/>
 						<h4 class="text-bold">easy</h4>
 						<p>Simply install Pokea on your Mac and Android, connect and magically see your notifications appear on the Mac.
 						</p>
@@ -103,7 +103,7 @@
 
 				<div class="col-sm-4" >
 					<div class="align-center">
-						<img src="img/usp_3.png"/>
+						<img src="img/GIF_2.png" width="250" height="142" data-orig="img/GIF_2.png" data-animated="img/GIF_2.gif"/>
 						<h4 class="text-bold">secure</h4>
 						<p>Your notification never leave your devices. Since Pokea is using Bluetooth no third party or cloud service is involved. Nobody else can read your notifications.
 						</p>
@@ -235,7 +235,17 @@
 	<script src="js/retina.min.js"></script>
 	<script type="text/javascript">
             // When the window has finished loading create our google map below
+	$(function(){
+	  $('#usp div div img').hover(function(){
+	    // on mouse enter
+	    var customdata = $(this).attr('data-animated');
+	    $(this).attr('src',customdata); 
+	  }, function(){
+	    // on mouse leave
+	    $(this).attr('src',$(this).attr('data-orig'));
+	  });
 
+	});
             </script>
         </body>
         </html>
