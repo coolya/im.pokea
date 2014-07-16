@@ -236,13 +236,18 @@
 	<script type="text/javascript">
             // When the window has finished loading create our google map below
 	$(function(){
-	  $('#usp div div img').hover(function(){
+	  $('#usp div div').hover(function(){
+
+	  var img = $(this).find('img');
 	    // on mouse enter
-	    var customdata = $(this).attr('data-animated');
-	    $(this).attr('src',customdata); 
+	    var customdata = img.attr('data-animated');
+	    img.attr('src',customdata); 
 	  }, function(){
 	    // on mouse leave
-	    $(this).attr('src',$(this).attr('data-orig'));
+	    var img = $(this).find('img');
+	    // on mouse enter
+	    var customdata = img.attr('data-orig');
+	    img.attr('src',customdata); 
 	  });
 
 	});
