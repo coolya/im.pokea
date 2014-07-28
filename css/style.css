@@ -13,7 +13,7 @@
   General
   ========================================================================== */
 body {
-	color:#ffffff;
+	color:#fbf7eb;
 	background: #68952D;
 	font-size: 16px;
 	line-height: 1.6em;
@@ -29,7 +29,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'nerislight', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	color:#ffffff;
+	color:#fbf7eb;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -460,7 +460,7 @@ section.featured h4,ul {
 }
 
 section.below-featured {
-	background-color:#ffffff;
+	background-color:#fbf7eb;
 }
 section.featured h3.claim {
 	font-family: 'neristhin', sans-serif;
