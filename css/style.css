@@ -462,6 +462,19 @@ section.featured h4,ul {
 section.below-featured {
 	background-color:#ffffff;
 }
+section.featured h3.claim {
+	font-family: 'neristhin', sans-serif;
+	text-transform:uppercase;
+	font-size: 28px;
+
+}
+
+section.featured b.emph {
+	font-family: 'nerissemibold', sans-serif;
+	text-transform:uppercase;
+	font-size: 28px;
+
+}
 
 section.featured {
 	background-image: url("../img/Header.png");
