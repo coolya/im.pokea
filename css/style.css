@@ -443,7 +443,7 @@ section.featured img.download-small  {
 }
 
 section.featured div.feature-text {
-	margin-top: 230px;
+	margin-top: 300px;
 	margin-bottom: 70px;
 }
 
@@ -490,7 +490,6 @@ section.featured b.emph {
 section.featured {
 	background-image: url("../img/Header.png");
 	background-position: center top;
-	background-size: cover;
 }
 
 
