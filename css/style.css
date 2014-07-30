@@ -492,6 +492,13 @@ section.featured {
 	background-position: center top;
 }
 
+.screen {
+	background-image: url("../img/screen_2.png");
+	background-position: center top;
+	height: 435px;
+}
+
+
 section.featured-disabled {
 
 
