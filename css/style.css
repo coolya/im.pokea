@@ -61,6 +61,11 @@ blockquote.bigquote {
 	font-family: nerissemibold, sans-serif;
 }
 
+.text-bold-upper {
+	font-family: nerissemibold, sans-serif;
+	text-transform: uppercase;
+}
+
 .text-italic {
 	font-family: neristhin_italic, sans-serif;
 }
