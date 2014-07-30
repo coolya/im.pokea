@@ -465,7 +465,7 @@ section.below-featured {
 section.featured h3.claim {
 	font-family: 'nerislight', sans-serif;
 	text-transform:uppercase;
-	line-height: 1.4;
+	line-height: 2.4;
 	font-size: 24px;
 
 }
@@ -473,7 +473,7 @@ section.featured h3.claim {
 section.featured b.emph {
 	font-family: 'nerissemibold', sans-serif;
 	text-transform:uppercase;
-	line-height: 1.4;
+	line-height: 2.4;
 	font-size: 24px;
 
 }
