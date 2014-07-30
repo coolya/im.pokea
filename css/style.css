@@ -465,14 +465,16 @@ section.below-featured {
 section.featured h3.claim {
 	font-family: 'nerislight', sans-serif;
 	text-transform:uppercase;
-	font-size: 28px;
+	line-height: 1.4;
+	font-size: 24px;
 
 }
 
 section.featured b.emph {
 	font-family: 'nerissemibold', sans-serif;
 	text-transform:uppercase;
-	font-size: 28px;
+	line-height: 1.4;
+	font-size: 24px;
 
 }
 
