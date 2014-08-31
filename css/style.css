@@ -13,7 +13,7 @@
 body {
 	color:#fbf7eb;
 	background: #68952D;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.6em;
 	font-weight: 300;
 	text-shadow: none;
@@ -428,6 +428,10 @@ h1 a.navbar-brand {
   --- Featured section ----
 =========================== */
 
+section.getit a {
+	color: #ffffff;
+	font-family: nerissemibold, sans-serif;
+}
 
 section.featured {
 
